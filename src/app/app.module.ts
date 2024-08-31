@@ -7,6 +7,12 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ShopComponent } from './components/shop/shop.component';
 import { HomeComponent } from './components/home/home.component';
+import { ShopDetailsComponent } from './components/shop-details/shop-details.component';
+import { CartComponent } from './components/cart/cart.component';
+import { ChackoutComponent } from './components/chackout/chackout.component';
+import { TestimonialComponent } from './components/testimonial/testimonial.component';
+import { NotFoundComponent } from './components/not-found/not-found.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +20,13 @@ import { HomeComponent } from './components/home/home.component';
     HeaderComponent,
     FooterComponent,
     ShopComponent,
-    HomeComponent
+    HomeComponent,
+    ShopDetailsComponent,
+    CartComponent,
+    ChackoutComponent,
+    TestimonialComponent,
+    NotFoundComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
